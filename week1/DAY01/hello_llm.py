@@ -13,7 +13,7 @@ client=Groq(api_key=my_api_key)
 
 model="llama-3.3-70b-versatile"
 role="user"
-prompt="Do you know Padho with Pratyush"
+prompt="Do you know Narendra Modi?"
 # message me role and content
 message={
     "role": role,
