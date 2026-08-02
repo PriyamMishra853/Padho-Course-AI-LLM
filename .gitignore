@@ -1,0 +1,14 @@
+# Ignore environment files
+.env
+.env.*
+**/.env
+**/.env.*
+
+# Ignore virtual environments
+.venv/
+venv/
+env/
+ENV/
+**/.venv/
+**/venv/
+**/env/
