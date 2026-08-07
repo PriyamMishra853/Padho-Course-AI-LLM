@@ -237,8 +237,6 @@ def parse_resume(resume_text):
     data = json.loads(raw_output)
     resume = Resume(**data)
     return resume
-
-
 from pypdf import PdfReader
 from docx import Document
 def read_pdf(file_path):
